@@ -1,0 +1,14 @@
+table,
+table * {
+  border: 1px solid black;
+  max-width: 500px;
+  /*
+  border-collapse: separate;
+  border-spacing: 10px;
+  */
+  border-collapse: collapse;
+  caption-side: bottom;
+  text-align: justify;
+  vertical-align: middle;
+  empty-cells: hide;
+}

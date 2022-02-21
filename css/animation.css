@@ -1,0 +1,40 @@
+.example {
+  width: 200px;
+  height: 200px;
+  background-color: aquamarine;
+  border: 3px solid blueviolet;
+  /*animation-name: bgChange;
+  animation-duration: 2s;
+  animation-timing-function: linear;*/
+  /*animation-iteration-count: 3;*/
+  /*animation-iteration-count: infinite;
+  animation-direction: reverse;*/
+  /*animation-fill-mode: both;*/
+  /*animation-delay: 3s;*/
+  /*animation: myAnimation 5s linear infinite;*/
+  animation: bgChange 5s linear infinite, scaleChange 5s linear infinite;
+}
+
+.example:hover {
+  animation-play-state: paused;
+}
+
+@keyframes bgChange {
+  from {
+    background-color: cornflowerblue;
+  }
+
+  50% {
+    background-color: darkgreen;
+  }
+
+  to {
+    background-color: darkred;
+  }
+}
+
+@keyframes scaleChange {
+  50% {
+    transform: scale(0.8);
+  }
+}

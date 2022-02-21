@@ -1,0 +1,32 @@
+h2 {
+  background-color: aquamarine;
+}
+
+div {
+  display: inline-block;
+  border: 3px solid red;
+}
+
+.p-relative {
+  position: relative;
+  top: 20px;
+  padding: 20px;
+}
+
+.p-absolute {
+  position: absolute;
+  top: 20px;
+  padding: 20px;
+}
+
+.p-fixed {
+  position: fixed;
+  top: 420px;
+  left: 300px;
+  padding: 20px;
+}
+
+.m-width {
+  min-width: 300px;
+  max-width: 500px;
+}

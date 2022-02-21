@@ -1,0 +1,98 @@
+@import "main.css";
+
+/* Селектор по всем элементам страницы */
+* {
+  color: rgb(100, 100, 100);
+}
+
+/* Селектор по тегам */
+p {
+  font-style: italic;
+}
+
+/* Селектор по class */
+.p1 {
+  font-style: normal;
+  font-weight: bold;
+}
+
+.p-1 {
+  padding: 10px;
+}
+
+.bc-crimson {
+  background-color: crimson;
+}
+
+.c-white {
+  color: white;
+}
+
+.fs-30 {
+  font-size: 30px;
+}
+
+/* Селектор по id */
+#p5 {
+  font-size: 20px;
+}
+
+/* Селектор по class только для p */
+p.p6 {
+  color: royalblue;
+}
+
+/* Селектор по class только для p внутри body, переопределяет p и p.p6 */
+body p.p6 {
+  color: tomato;
+}
+
+/* Групповой селектор */
+h1,
+h2 {
+  color: darkmagenta;
+}
+
+/* Селектор потомка */
+div p {
+  color: green;
+}
+
+/* Селектор прямого потомка */
+ul li > span {
+  font-weight: bold;
+}
+
+/* Селектор следующего элемента после указанного */
+ul li + li {
+  text-transform: uppercase;
+}
+
+/* Селектор всех следующих элементов после указанного */
+br ~ p {
+  color: hotpink;
+}
+
+/* Селектор по атрибуту */
+a[target] {
+  background-color: khaki;
+}
+
+a[target="top"] {
+  font-weight: bold;
+}
+
+/* href начинается с */
+a[href^="yand"] {
+  background-color: lawngreen;
+}
+
+/* href заканчивается на */
+a[href$=".jpg"] {
+  background-color: mediumorchid;
+}
+
+/* href включает */
+a[href*="link"] {
+  background-color: orange;
+}

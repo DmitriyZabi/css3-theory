@@ -1,0 +1,8 @@
+/* https://caniuse.com/ */
+p {
+  opacity: 0.5;
+  -webkit-opacity: 0.5; /* Chrome, safari */
+  -moz-opacity: 0.5; /* Firefox */
+  -o-opacity: 0.5; /* Opera */
+  -ms-opacity: 0.5; /* Explorer */
+}

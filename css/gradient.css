@@ -1,0 +1,40 @@
+.wrapper-1 {
+  height: 50vh;
+  width: 100%;
+  /*background: linear-gradient(45deg, white, black);*/
+  /**background: linear-gradient(to top right, white, black);*/
+  /*background: linear-gradient(
+    45deg,
+    red 10%,
+    orange 50%,
+    yellow 60%,
+    green 80%,
+    blue 85%,
+    violet
+  );*/
+  /*
+  background: repeating-linear-gradient(
+    45deg,
+    yellow 250px,
+    black 150px,
+    yellow 375px,
+    black 375px
+  );
+  */
+  background: repeating-linear-gradient(
+    45deg,
+    black 100px,
+    black 200px,
+    yellow 200px,
+    yellow 300px
+  );
+}
+
+.wrapper-2 {
+  height: 50vh;
+  width: 100%;
+
+  /*background: radial-gradient(ellipse closest-side, aqua, red);*/
+  /*background: radial-gradient(ellipse closest-side, aqua 70%, red 30%);*/
+  background: repeating-radial-gradient(circle, aqua 20px, red 40px);
+}

@@ -1,0 +1,22 @@
+.wrapper {
+  min-height: 100vh;
+  width: 100%;
+  font-size: 18px;
+
+  /*background-color: thistle;
+  background-image: url("image/texture.png");*/
+  /*background-size: cover;*/
+  /*background-size: 100px 200px;*/
+  background-size: auto 200px;
+  /*background-repeat: no-repeat;*/
+  /*background-position: center center;*/
+  /*
+  background-position-x: center;
+  background-position-y: center;
+  */
+  /*background-attachment: fixed;*/
+
+  /*background: thistle url("image/back1.png") center center no-repeat fixed;*/
+  background: url("image/back1.png") center center no-repeat fixed,
+    url("image/back2.png") left center no-repeat fixed;
+}

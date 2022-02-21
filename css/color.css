@@ -1,0 +1,10 @@
+h1 {
+  /*
+  color: cornflowerblue;
+  color: #6494ed;
+  color: rgb(100, 148, 237);
+  color: hsl(219, 79%, 66%);
+  color: rgba(100, 148, 237, 0.5);
+  */
+  color: hsla(219, 79%, 66%, 0.5);
+}

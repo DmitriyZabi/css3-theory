@@ -1,0 +1,48 @@
+h1 {
+  font-family: Arial, sans-serif; /* если нет Arial, то берется любой без засечек (serif - с засечками) */
+  color: brown;
+  text-decoration: underline overline;
+  letter-spacing: 2px; /* Расстояние между буквами */
+  word-spacing: 10px; /* Расстояние между словами */
+  line-height: 100px; /* Межстрочный интервал */
+  text-transform: uppercase;
+  text-align: left;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "RobotoRegular";
+  src: url("font/Roboto/Roboto-Regular.ttf") format("truetype"),
+    url("font/Roboto/Roboto-Regular.ttf") format("woff"),
+    url("font/Roboto/Roboto-Regular.ttf") format("woff2"),
+    url("font/Roboto/Roboto-Regular.ttf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "RobotoBoldItalic";
+  src: url("font/Roboto/Roboto-BoldItalic.ttf") format("truetype"),
+    url("font/Roboto/Roboto-BoldItalic.ttf") format("woff"),
+    url("font/Roboto/Roboto-BoldItalic.ttf") format("woff2"),
+    url("font/Roboto/Roboto-BoldItalic.ttf") format("opentype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+p.p1 {
+  font-family: "RobotoRegular", Arial, Helvetica, sans-serif;
+  font-size: 24px;
+}
+
+p.p2 {
+  font-family: "RobotoBoldItalic", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  text-align: justify;
+  text-indent: 20px; /* Табуляция */
+}

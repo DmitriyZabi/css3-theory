@@ -1,0 +1,23 @@
+.container {
+  height: 300px;
+  width: 500px;
+  font-size: 24px;
+  border: blueviolet 1px solid;
+  overflow: scroll;
+}
+
+::-webkit-scrollbar {
+  background: brown;
+  width: 25px;
+}
+
+::-webkit-scrollbar-track {
+  border: 5px solid black;
+}
+
+::-webkit-scrollbar-thumb {
+  background: darkgoldenrod;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}

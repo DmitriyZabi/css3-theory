@@ -1,0 +1,30 @@
+.example {
+  height: 300px;
+  width: 300px;
+  margin: 20px;
+  background-color: grey;
+  /*
+  border-style: solid;
+  border-width: 5px;
+  border-color: brown;
+  */
+  border: 15px solid brown;
+  border-right-style: double;
+  outline: 5px solid forestgreen /* не учавствует в размере блочной модели */;
+}
+
+h1 {
+  text-shadow: 1px 2px 5px blueviolet, -10px 2px 5px cornflowerblue;
+}
+
+h2 {
+  background-color: cyan;
+}
+
+.example-2 {
+  height: 300px;
+  width: 300px;
+  margin: 20px;
+  background-color: grey;
+  box-shadow: 1px 2px 5px blueviolet, inset -10px 2px 5px cornflowerblue;
+}

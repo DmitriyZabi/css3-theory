@@ -1,0 +1,11 @@
+html {
+  font-size: 20px; /* browser font-size */
+}
+
+ul li {
+  /*font-size: 20px;*/ /* absolute */
+  /* relative */
+  /*font-size: 80%;*/
+  /*font-size: 2em;*/ /* 2xParent font-size */
+  font-size: 2rem; /* 2xBrowser font-size */
+}

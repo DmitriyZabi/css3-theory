@@ -1,0 +1,14 @@
+::placeholder {
+  color: blueviolet;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Edge */
+  color: blueviolet;
+}
+
+::-ms-input-placeholder {
+  /* IE 10, 11 */
+  color: blueviolet;
+}

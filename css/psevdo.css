@@ -1,0 +1,89 @@
+a {
+  text-decoration: none;
+  color: crimson;
+  font-size: 24px;
+}
+
+/* Псевдоклассы */
+
+/* селектор при наведении на ссылку */
+a:hover {
+  color: cornflowerblue;
+}
+
+/* селектор после посещения ссылки */
+a:visited {
+  color: aqua;
+}
+
+/* селектор после нажатия на ссылку без отжатия кнопки */
+a:active {
+  color: darkorange;
+}
+
+/* селектор после фокуса элемента через Tab */
+a:focus {
+  color: darkslateblue;
+}
+
+/* Псевдоэлементы */
+
+/* Первая буква */
+p::first-letter {
+  font-size: 40px;
+}
+
+/* Первая строка */
+p::first-line {
+  text-decoration: underline;
+}
+
+/* Стиль при выделении */
+p::selection {
+  background-color: deeppink;
+}
+
+/* до, после */
+h1:before {
+  content: "This is ";
+  font-size: 20px;
+}
+
+h1:after {
+  content: " line";
+  color: brown;
+}
+
+/* первый, последний */
+ul.list1 li:first-child {
+  background-color: chartreuse;
+}
+
+ul.list1 li:last-child {
+  background-color: cyan;
+}
+
+/* четный, нечетный */
+ul.list2 li:nth-child(even) {
+  background-color: chartreuse;
+}
+
+ul.list2 li:nth-child(odd) {
+  background-color: cyan;
+}
+/* по номеру элемента */
+ul.list2 li:nth-child(3) {
+  background-color: darkorange;
+}
+
+/* Каждый 3й, от 1го */
+ul.list2 li:nth-child(3n + 1) {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+/* отрицание */
+ul.list3 li:not(.li3) {
+  font-size: 40px;
+  font-weight: bold;
+}

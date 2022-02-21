@@ -1,0 +1,25 @@
+.example {
+  height: 200px;
+  width: 200px;
+  background-color: grey;
+}
+
+.example-1 {
+  border-radius: 50%;
+}
+
+.example-2 {
+  margin-top: 20px;
+  border-radius: 50px 30px 40px 20px; /* top-left top-right bottom-right bottom-left */
+  /*
+  border-top-left-radius: 50px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 40px;
+  border-bottom-left-radius: 20px;
+  */
+}
+
+.example-3 {
+  margin-top: 20px;
+  border-radius: 20px/40px; /* horizontal, vertical */
+}

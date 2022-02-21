@@ -1,0 +1,9 @@
+.first {
+  display: none; /* скрывается, не занимает места, не виден поисковыми системами */
+}
+
+.second {
+  visibility: hidden; /* скрывается, занимает место */
+  /*opacity: 0;
+  color: transparent;*/
+}
